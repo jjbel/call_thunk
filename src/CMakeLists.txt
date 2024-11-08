@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(call_thunk LANGUAGES CXX)
+project(call_thunk VERSION 1.0.0 LANGUAGES CXX)
 
 add_library(call_thunk call_thunk.h call_thunk.cpp)
 target_compile_features(call_thunk PRIVATE cxx_std_11)
