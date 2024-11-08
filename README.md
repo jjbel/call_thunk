@@ -1,3 +1,7 @@
+### Adding CMake and Conan support to https://github.com/znone/call_thunk
+
+---
+
 Generally, the C function can not directly callback the member functions of the C++ class. Some C functions pass the this pointer by providing additional application data pointer parameters to solve this problem. But other C functions do not have such a design, but thunk technology can be used to solve this problem. Call_thunk is the library of the member functions that use thunk technology to callback the C++ class from the C function.
  
 > Note: all the code for call_thunk is in the namespace call_thunk.
