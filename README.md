@@ -1,4 +1,11 @@
 ### Adding CMake and Conan support to https://github.com/znone/call_thunk
+to use it in https://github.com/jjbel/samarium
+
+```sh
+git clone https://github.com/jjbel/call_thunk .
+cmake -B build -S .
+cmake --build build
+```
 
 ---
 
